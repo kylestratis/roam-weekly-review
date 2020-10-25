@@ -33,3 +33,5 @@ An example output looks like this:
   - What should I stop doing?
   - What should I start doing?
 ```  
+
+Enjoyed this workflow? [Buy me a beer!](https://www.buymeacoffee.com/kylestratis)
