@@ -30,7 +30,7 @@ def generate_template():
   - Did I reach my goal for # of hours spent on deep work this week?
   - If yes, what worked well that I can implement more regularly?
   - If no, what can I improve upon to maximize success?
-  - How many high-impact items on my to-do list was I able to complete?
+  - How many high-impact items (priority projects, articles, videos, courses, etc.) on my to-do list was I able to completely close out?
   - What do I want to accomplish in the week ahead?
   - What adjustments do I need to make to ensure I reach my goals?
 # Post-Review Retrospective
