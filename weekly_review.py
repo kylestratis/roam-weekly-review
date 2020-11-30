@@ -25,7 +25,7 @@ def generate_template():
     week = next_week()
     template = """
 # What did I do this week?
-  - {{{{[[query]]: {{and: [[DONE]] {{between: [[{first_day}]][[{last_day}]] {{not: [[query]]}}}}}}}}
+  - {{{{[[query]]: {{and: [[DONE]] {{not: [[query]]}} {{between: [[{first_day}]][[{last_day}]]}}}}}}}}
 # Review Questions
   - Did I reach my goal for # of hours spent on deep work this week?
   - If yes, what worked well that I can implement more regularly?
