@@ -27,9 +27,6 @@ def generate_template():
 # What did I do this week?
   - {{{{[[query]]: {{and: [[DONE]] {{not: [[query]]}} {{between: [[{first_day}]][[{last_day}]]}}}}}}}}
 # Review Questions
-  - Did I reach my goal for # of hours spent on deep work this week?
-  - If yes, what worked well that I can implement more regularly?
-  - If no, what can I improve upon to maximize success?
   - How many high-impact items (priority projects, articles, videos, courses, etc.) on my to-do list was I able to completely close out?
   - What do I want to accomplish in the week ahead?
   - What adjustments do I need to make to ensure I reach my goals?
