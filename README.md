@@ -21,14 +21,14 @@ An example output looks like this:
 # What did I do this week?
   - {{[[query]]: {and: [[DONE]] {between: [[August 3rd, 2020]][[August 9th, 2020]] {not: [[query]]}}}}
 # Review Questions
-  - Did I reach my goal for # of hours spent on deep work this week?
-  - If yes, what worked well that I can implement more regularly?
-  - If no, what can I improve upon to maximize success?
-  - How many high-impact items on my to-do list was I able to complete?
+  - How many high-impact items (priority projects, articles, videos, courses, etc.) on my to-do list was I able to completely close out?
   - What do I want to accomplish in the week ahead?
   - What adjustments do I need to make to ensure I reach my goals?
-# Post-Review Retrospective
-  - What went well?
+  - What am I struggling with right now?
+  - What do I want to learn by the end of this week?
+  - What is one thing I will try that will get me out of my comfort zone?
+  - Who can I reach out to for help this week?# Post-Review Retrospective
+  - What went well this week?
   - What could be adjusted?
   - What should I stop doing?
   - What should I start doing?
