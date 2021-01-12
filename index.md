@@ -1,6 +1,3 @@
-## roam-weekly-review
-Alfred workflow that generates a Roam weekly review template
-
 <img src="image.png" height=400>
 
 [Get the code here](https://github.com/kylestratis/roam-weekly-review)
