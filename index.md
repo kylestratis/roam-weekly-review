@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+## roam-weekly-review
+Alfred workflow that generates a Roam weekly review template
 
-You can use the [editor on GitHub](https://github.com/kylestratis/roam-weekly-review/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<img src="image.png" height=400>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[Get the code here](https://github.com/kylestratis/roam-weekly-review)
 
-### Markdown
+This workflow allows you to use a snippet trigger with [Alfred](https://www.alfredapp.com/) to generate a weekly review. Due to how Python's `datetime`
+module works, it should work to do a weekly review on both Sunday (the assumed end of the week) and Monday (the first day of the week after the one being reviewed).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This review has the following sections:
+* What did I do this week? - This is a query of all done TODO items from the week you are reviewing. 
+* Review Questions - Questions to ask yourself as you review the previous week. 
+* Post-Review Retrospective - Questions to find areas of improvement for the coming week.
 
-```markdown
-Syntax highlighted code block
+## Installation
+To install, all you need to do is download the Roam Daily Notes.alfredworkflow file from this repo and
+open it with Alfred. Define the snippet trigger you want to use (I like `\\xrwr`) and use it whenever you
+want to review the past week. The script that generates the template is also available to look
+at in this repo. 
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## Output
+An example output looks like this: 
 ```
+# What did I do this week?
+  - {{[[query]]: {and: [[DONE]] {between: [[August 3rd, 2020]][[August 9th, 2020]] {not: [[query]]}}}}
+# Review Questions
+  - How many high-impact items (priority projects, articles, videos, courses, etc.) on my to-do list was I able to completely close out?
+  - What do I want to accomplish in the week ahead?
+  - What adjustments do I need to make to ensure I reach my goals?
+  - What am I struggling with right now?
+  - What do I want to learn by the end of this week?
+  - What is one thing I will try that will get me out of my comfort zone?
+  - Who can I reach out to for help this week?# Post-Review Retrospective
+  - What went well this week?
+  - What could be adjusted?
+  - What should I stop doing?
+  - What should I start doing?
+```  
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kylestratis/roam-weekly-review/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Enjoyed this workflow? [Buy me a beer!](https://www.buymeacoffee.com/kylestratis)
