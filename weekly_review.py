@@ -33,7 +33,8 @@ def generate_template():
   - What am I struggling with right now?
   - What do I want to learn by the end of this week?
   - What is one thing I will try that will get me out of my comfort zone?
-  - Who can I reach out to for help this week?# Post-Review Retrospective
+  - Who can I reach out to for help this week?
+# Post-Review Retrospective
   - What went well this week?
   - What could be adjusted?
   - What should I stop doing?
